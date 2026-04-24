@@ -40,3 +40,8 @@
 | `/mnt` | Temporary mount point for external filesystems. |
 | `/media` | Mount point for removable media (USB, CDs). |
 | `/data` | Likely your **mounted volume** from Windows (`C:/ubuntu-data`). |
+
+**To find various directories in a linux container**
+'''bash
+ls -ltr
+'''
