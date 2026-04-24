@@ -101,19 +101,19 @@ sudo zypper remove nginx   # Remove a package
   sudo apt autoremove
   ```
 - ✅ **Enable automatic security updates (Ubuntu):**
-```bash
+  ```bash
   sudo apt install unattended-upgrades
   sudo dpkg-reconfigure unattended-upgrades
   ```
 - ✅ **Run Docker commands here**
-```bash
-docker stop ubuntu-container
-docker start ubuntu-container
-```
+  ```bash
+  docker stop ubuntu-container
+  docker start ubuntu-container
+  ```
 — ✅ **Re-enter Ubuntu**
- ```bash
-docker exec -it ubuntu-container bash
-```
+  ```bash
+  docker exec -it ubuntu-container bash
+  ```
 
 ---
 This document provides a solid foundation for understanding package managers in Linux! 🚀
