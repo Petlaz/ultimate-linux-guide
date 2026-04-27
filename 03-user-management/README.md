@@ -40,6 +40,11 @@ To set or change a user’s password:
 passwd username
 ```
 
+## Check if password is created successfully
+```bash
+cat /etc/shadow
+```
+
 ### Enforcing Password Policies
 - **Password expiration**: Set password expiry days
   ```bash
