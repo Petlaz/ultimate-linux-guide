@@ -2,9 +2,9 @@
 
 ## Introduction to File Permissions
 Linux file permissions determine who can read, write, or execute files and directories. Each file and directory has three levels of permission:
-- **Owner (User)**: The creator of the file.
-- **Group**: Users belonging to the assigned group.
-- **Others**: All other users on the system.
+- **Owner (User) (u)**: The creator of the file.
+- **Group (g)**: Users belonging to the assigned group.
+- **Others (o)**: All other users on the system.
 
 Permissions are represented as:
 - **Read (`r` or `4`)** – View file contents.
