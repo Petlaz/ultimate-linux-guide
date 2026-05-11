@@ -15,6 +15,7 @@ Monitoring system resources is essential to ensure optimal performance, detect i
 - `df -h` – Check disk space usage
 - `du -sh /path` – Show disk usage of a specific directory
 - `iostat` – Display CPU and disk I/O statistics
+- `du -sh * /path` - Display disk usage of each folder (directory) in a specific directory(folder)
 
 ### Network Monitoring
 - `ifconfig` – Show network interfaces (deprecated, use `ip a`)
